@@ -1,0 +1,166 @@
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.2em; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://images.creativemarket.com/0.1.0/ps/7353024/1820/965/m1/fpnw/wm1/ahp0l9ecx0vfwsdo1rwxcdtynfyzn4gweomwnblntp5glupfrmnapoab88tzxyjd-.jpg?1574572829&s=b8ffc3e573cf00451539ee4b954ba3c0');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 1.2em; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-row div {
+    flex: 1 1 200px;
+    max-width: 200px;
+}
+
+.image-row img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+section {
+    text-align: center; 
+    padding: 20px; 
+}
+
+
+
+.background-section {
+    background-image: url('https://images.creativemarket.com/0.1.0/ps/7353024/1820/965/m1/fpnw/wm1/ahp0l9ecx0vfwsdo1rwxcdtynfyzn4gweomwnblntp5glupfrmnapoab88tzxyjd-.jpg?1574572829&s=b8ffc3e573cf00451539ee4b954ba3c0');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.social-media {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+}
+
+
+.social-media li {
+    display: inline; 
+}
+
+.social-link {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 1.2em; 
+}
+
+.social-link:hover {
+    text-decoration: underline; 
+}
+
